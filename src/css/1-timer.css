@@ -1,0 +1,56 @@
+@import url('./reset.css');
+.timer-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  gap: 1rem;
+  margin: 0 auto;
+}
+
+.calendar-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+.calendar-wrapper input {
+  width: 100%;
+  padding: 0.5rem;
+}
+.calendar-wrapper button {
+  width: 96px;
+  padding: 0.5rem;
+  text-transform: uppercase;
+}
+
+.timer {
+  display: flex;
+  gap: 2rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-size: 2rem;
+}
+
+button:disabled,
+.calendar-wrapper input:disabled {
+  cursor: not-allowed;
+}
+
+button {
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #cfcfcf;
+  transition-duration: 250ms;
+  transition-property: background-color;
+}
+
+button:hover {
+  background-color: #ababab;
+}
