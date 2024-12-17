@@ -1,0 +1,11 @@
+button {
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #cfcfcf;
+  transition-duration: 250ms;
+  transition-property: background-color;
+}
+
+button:hover:not(:disabled) {
+  background-color: #ababab;
+}
